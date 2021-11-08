@@ -41,7 +41,7 @@ const call = {
       user: {
         '@odata.type': '#microsoft.graph.identity',
         id: '5810cede-f3cc-42eb-b2c1-e9bd5d53ec96',
-        tenantId: 'aa67bd4c-8475-432d-bd41-39f255720e0a',
+        tenantId: '9f386a15-f9cc-445b-8106-ac85e314a07b',
         displayName: 'Bob'
       }
     },
