@@ -47,9 +47,9 @@ The application authentication methods policy API offers the following restricti
 | Restriction name      | Description                                           | Examples                                                                                     |
 | :--------------- | :---------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | passwordAddition | Restrict password secrets on applications altogether. | Block new passwords on applications created on or after '01/01/2019'.                        |
-| passwordLifetime | Enforce a max lifetime range for a password secret.   | Restrict all new password secrets to a maximum of 30 days for applications created after 01/01/2015. |
+| passwordLifetime | Enforce a max lifetime range for a password secret. Lifetime is expressed in ISO-8601 duration format.  | Restrict all new password secrets to a maximum of 30 days for applications created after 01/01/2015. |
 | symmetricKeyAddition | Restrict symmetric keys on applications. | Block new symmetric keys on applications created on or after 01/01/2019. |
-| symmetricKeyLifetime | Enforce a max lifetime range for a symmetric key.   | Restrict all new symmetric keys to a maximum of 30 days for applications created after 01/01/2019. |
+| symmetricKeyLifetime | Enforce a max lifetime range for a symmetric key. Lifetime is expressed in ISO-8601 duration format.  | Restrict all new symmetric keys to a maximum of 30 days for applications created after 01/01/2019. |
 | asymmetricKeyLifetime | Enforce a max lifetime range for an asymmetric key (certificate).   | Restrict all new asymmetric key secrets to a maximum of 30 days for applications created after 01/01/2019. |
 
 ### Single vs multi-tenant apps
