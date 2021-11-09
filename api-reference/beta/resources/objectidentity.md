@@ -27,6 +27,13 @@ The **identities** property of the [user](user.md) resource is an **objectIdenti
 
 >**Note:** When filtering on the **identities** property, you must supply both **issuer** and **issuerAssignedId**.
 
+## HTTP request
+For a specific user:
+<!-- { "blockType": "ignored" } -->
+```http
+GET /users/{id | userPrincipalName}/identities
+```
+
 ## JSON representation
 
 The following is a JSON representation of the resource.
